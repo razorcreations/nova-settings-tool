@@ -1,5 +1,10 @@
+laravel: '@testbench'
+
 providers:
+  - Laravel\Nova\NovaServiceProvider
+  - Laravel\Nova\NovaCoreServiceProvider
   - Workbench\App\Providers\NovaServiceProvider
+  - Bakerkretzmar\NovaSettingsTool\SettingsToolServiceProvider
 
 migrations: true
 seeders:

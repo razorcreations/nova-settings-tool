@@ -15,9 +15,9 @@
             </Card>
         </template>
         <div class="flex">
-            <LoadingButton class="ml-auto" @click="saveSettings" :processing="saving">
+            <Button class="ml-auto" @click="saveSettings" :loading="saving">
                 {{ __('Save') }}
-            </LoadingButton>
+            </Button>
         </div>
     </div>
 </template>
@@ -30,17 +30,17 @@ import SelectSetting from './SelectSetting.vue';
 import TextSetting from './TextSetting.vue';
 import TextareaSetting from './TextareaSetting.vue';
 import ToggleSetting from './ToggleSetting.vue';
-import LoadingButton from './LoadingButton.vue';
+import { Button } from 'laravel-nova-ui';
 
 export default {
     components: {
+        Button,
         CodeSetting,
         NumberSetting,
         SelectSetting,
         TextSetting,
         TextareaSetting,
         ToggleSetting,
-        LoadingButton,
     },
     data: () => ({
         saving: false,

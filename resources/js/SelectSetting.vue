@@ -10,14 +10,16 @@
                         value: $event.target.value,
                     })
                 "
-                class="w-full block form-control form-select form-select-bordered"
+                class="w-full block form-control form-control-bordered form-input"
             >
                 <option value="" selected>{{ setting.placeholder || __('Choose an option') }}</option>
                 <option v-for="(label, option) in setting.options" :key="option" :value="option">
                     {{ __(label) }}
                 </option>
             </select>
-            <IconArrow class="pointer-events-none form-select-arrow" />
+            <span class="pointer-events-none absolute inset-y-0 right-[11px] flex items-center">
+                <IconArrow />
+            </span>
         </div>
     </DefaultSetting>
 </template>

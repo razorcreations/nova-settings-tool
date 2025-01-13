@@ -11,7 +11,7 @@
                 })
             "
             :placeholder="setting.placeholder"
-            class="w-full form-control form-input form-input-bordered"
+            class="w-full form-control form-input form-control-bordered"
         />
     </DefaultSetting>
 </template>

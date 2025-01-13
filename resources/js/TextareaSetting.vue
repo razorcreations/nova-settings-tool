@@ -10,7 +10,7 @@
                 })
             "
             :placeholder="setting.placeholder"
-            class="w-full form-control form-input form-input-bordered py-3 h-auto"
+            class="w-full form-control form-input form-control-bordered py-3 h-auto"
             rows="6"
         />
     </DefaultSetting>
