@@ -1,5 +1,4 @@
 const mix = require('laravel-mix');
-const { join } = require('path');
 
 mix.extend('nova', new require('laravel-nova-devtool'));
 

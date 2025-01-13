@@ -1,6 +1,6 @@
 <template>
     <DefaultSetting :setting="setting" :errors="errors || []">
-        <div class="form-input form-input-bordered px-0 overflow-hidden">
+        <div class="form-input form-control-bordered px-0 overflow-hidden">
             <textarea ref="txt" :id="setting.key" />
         </div>
     </DefaultSetting>

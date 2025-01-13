@@ -1,5 +1,6 @@
 /node_modules
 /vendor
 .phpunit.result.cache
+auth.json
 composer.lock
 package-lock.json

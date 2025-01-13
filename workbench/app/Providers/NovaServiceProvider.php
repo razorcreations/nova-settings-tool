@@ -65,7 +65,7 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
     public function tools()
     {
         return [
-            new \Bakerkretzmar\NovaSettingsTool\SettingsTool(),
+            new \Bakerkretzmar\NovaSettingsTool\SettingsTool,
         ];
     }
 
